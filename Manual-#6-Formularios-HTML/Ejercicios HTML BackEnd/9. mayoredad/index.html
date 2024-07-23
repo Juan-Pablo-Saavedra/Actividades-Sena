@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor Edad </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="form-box login">
+                <h2> Calcular Edad </h2>
+                <form name="formulario" class="form">
+
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="caret-back-outline"></ion-icon></span>
+                        <input type="number" id="edad" required>
+                        <label for="nota1Input">Ingrese su edad </label>
+                    </div>
+
+    
+                    <div class="remember-forgot">
+                        <button type="button" onclick="calcularEdad()" class="btn">Calcular</button> 
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-4 resultado">
+                <h2>RESULTADO</h2>
+                <div class="resultadoss" id="resultado"></div>
+            </div>
+            
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+

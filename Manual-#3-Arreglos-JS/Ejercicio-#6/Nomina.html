@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nómina</title>
+</head>
+<body>
+  <script>
+    let empleados = []; // el array principal
+    let listaNomina = []; // el array para almacenar la nómina
+    let salarioMinimo = 16000000;
+    let cantidadRegistros;
+    let mostrar;
+    let mostrarRetencion;
+
+    const calcularSalario = function(valorDia, dias) {
+        return valorDia * dias;
+    };
+
+    const calcularSubsidioTransporte = function(salario) {
+        if (salario < salarioMinimo * 2) {
+            return "Si se aplica el subsidio de transporte " + salario;
+        } else {
+            return "No se aplica el subsidio de transporte";
+        }
+    };
+
+    const calcularSalud = function(salario) {
+        return salario * 0.12;
+    };
+
+    const calcularPension = function(salario) {
+        return salario * 0.16;
+    };
+
+    const calcularArl = function(salario) {
+        return salario * 0.052;
+    };
+
+    const calcularDeducible = function(salario) {
+        return calcularSalud(salario) + calcularPension(salario) + calcularArl(salario);
+    };
+
+    const calcularRetencion = function(salario) {
+        if (salario > salarioMinimo * 12) {
+            return "Retencion de 0.08 " + salario * 0.08;
+        } else if (salario > salarioMinimo * 8) {
+            return "Retencion de 0.04 " + salario * 0.04;
+        } else if (salario > salarioMinimo * 6) {
+            return "Retencion de 0.02 " + salario * 0.02;
+        } else {
+            return "No aplica retención";
+        }
+    };
+
+    const calcularTotal = function(salario) {
+        return salario - calcularDeducible(salario);
+    };
+
+    empleados = [
+    { id: 1029384756, nombre: "Pedro", apellido: 'Gomez', cargo: 'Gerente', valorDia: 75000, diasTrabajado: 42 },
+    { id: 1827364527, nombre: "Ana", apellido: "Perez", cargo: 'Empleado', valorDia: 60000, diasTrabajado: 50 },
+    { id: 1345678901, nombre: 'Luis', apellido: 'Lopez', cargo: 'Contador', valorDia: 35000, diasTrabajado: 60 },
+    { id: 1212121212, nombre: "Laura", apellido: 'Gonzalez', cargo: "Instructor", valorDia: 42000, diasTrabajado: 70 },
+    { id: 9876543210, nombre: "Maria", apellido: 'Diaz', cargo: 'Doctor', valorDia: 15000, diasTrabajado: 80 },
+    { id: 6789012345, nombre: 'Juan', apellido: 'Martinez', cargo: 'Bombero', valorDia: 55000, diasTrabajado: 85 },
+    { id: 3456789012, nombre: "Andres", apellido: 'Perez', cargo: 'Obrero', valorDia: 18000, diasTrabajado: 95 },
+    { id: 4567890123, nombre: "Carla", apellido: 'Sanchez', cargo: 'Soldador', valorDia: 31000, diasTrabajado: 15 },
+    { id: 7654321098, nombre: 'Luisa', apellido: 'Garcia', cargo: 'Profesor', valorDia: 135000, diasTrabajado: 25 },
+    { id: 5432109876, nombre: "Jorge", apellido: "Rodriguez", cargo: "Empleado", valorDia: 320000, diasTrabajado: 40 }
+];
+
+
+    cantidadRegistros = empleados.length;
+
+    for (let iteracion = 0; iteracion < cantidadRegistros; iteracion++) {
+        let trabajador = empleados[iteracion];
+        let salarioCalculado = calcularSalario(trabajador.valorDia, trabajador.diasTrabajado);
+        let subTransCalculada = calcularSubsidioTransporte(salarioCalculado);
+        let retencionCalculada = calcularRetencion(salarioCalculado);
+        let saludCalculada = calcularSalud(salarioCalculado);
+        let pensionCalculada = calcularPension(salarioCalculado);
+        let arlCalculada = calcularArl(salarioCalculado);
+        let deducibleCalculada = calcularDeducible(salarioCalculado);
+        let totalCalculado = calcularTotal(salarioCalculado);
+        listaNomina.push({
+            id: trabajador.id,
+            nombre: trabajador.nombre,
+            apellido: trabajador.apellido,
+            cargo: trabajador.cargo,
+            salario: salarioCalculado,
+            subtransporte: subTransCalculada,
+            retencion: retencionCalculada,
+            salud: saludCalculada,
+            pension: pensionCalculada,
+            arl: arlCalculada,
+            deducible: deducibleCalculada,
+            total: totalCalculado
+        });
+    }
+    console.log(listaNomina);
+</script>
+
+</body>
+</html>
+

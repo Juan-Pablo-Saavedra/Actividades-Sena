@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla del 5 y del 9 con identificacion de pares e impares y los suma para saber cuantos hay de cada uno</title>
+</head>
+<body>
+    <script>
+        let tablaCinco = [];
+        let paresCinco = [];
+        let imparesCinco = [];
+        let numeroBase = 1;
+        let sumaParesCinco;
+        let sumaImparesCinco;
+    
+        for (let fila = 0; fila < 5; fila++) {
+            tablaCinco[fila] = [];
+            for (let columna = 0; columna < 5; columna++) {
+                tablaCinco[fila][columna] = numeroBase * 5;
+                numeroBase++;
+                if (tablaCinco[fila][columna] % 2 === 0) {
+                    paresCinco.push(tablaCinco[fila][columna]);
+                } else {
+                    imparesCinco.push(tablaCinco[fila][columna]);
+                }
+                sumaParesCinco = 0;
+                for (let i = 0; i < paresCinco.length; i++) {
+                    sumaParesCinco += paresCinco[i];
+                }
+                sumaImparesCinco = 0;
+                for (let i = 0; i < imparesCinco.length; i++) {
+                    sumaImparesCinco += imparesCinco[i];
+                }
+            }
+        }
+        console.log("Matriz 5: ", tablaCinco);
+        console.log("Pares de la tabla del 5: " + paresCinco);
+        console.log("Impares de la tabla del 5: " + imparesCinco);
+        console.log("La suma total de los pares de la tabla del 5 es " + sumaParesCinco);
+        console.log("La suma total de los impares de la tabla del 5 es " + sumaImparesCinco);
+    
+        // Tabla del 9
+        let tablaNueve = [];
+        let paresNueve = [];
+        let imparesNueve = [];
+        let multiplicador = 1;
+        let sumaParesNueve;
+        let sumaImparesNueve;
+        for (let fila = 0; fila < 5; fila++) {
+            tablaNueve[fila] = [];
+            for (let columna = 0; columna < 5; columna++) {
+                tablaNueve[fila][columna] = multiplicador * 9;
+                multiplicador++;
+                if (tablaNueve[fila][columna] % 2 === 0) {
+                    paresNueve.push(tablaNueve[fila][columna]);
+                } else {
+                    imparesNueve.push(tablaNueve[fila][columna]);
+                }
+                sumaParesNueve = 0;
+                for (let i = 0; i < paresNueve.length; i++) {
+                    sumaParesNueve += paresNueve[i];
+                }
+                sumaImparesNueve = 0;
+                for (let i = 0; i < imparesNueve.length; i++) {
+                    sumaImparesNueve += imparesNueve[i];
+                }
+            }
+        }
+        console.log("Matriz 9:", tablaNueve);
+        console.log("Pares de la tabla del 9:" + paresNueve);
+        console.log("Impares de la tabla del 9:" + imparesNueve);
+        console.log("La suma total de los pares de la tabla del 9 es " + sumaParesNueve);
+        console.log("La suma total de los impares de la tabla del 9 es " + sumaImparesNueve);
+    </script>
+    
+    
+</body>
+</html>

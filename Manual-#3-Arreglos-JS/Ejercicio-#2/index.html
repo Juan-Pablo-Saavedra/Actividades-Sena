@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio2</title>
+</head>
+<body>
+    <script>
+        let matriz5 = [];
+        let par5 = [];
+        let impar5 = [];
+        let num3 = 1;
+        let sumasPar5
+        let sumasImpar5
+       
+
+        for (let num1 = 0; num1 < 5; num1++) {
+            matriz5[num1] = [];
+            for (let num2 = 0; num2 < 5; num2++) {
+                matriz5[num1][num2] = num3 * 5;
+                num3++;
+                if(matriz5[num1][num2]%2 ==0){
+                    par5.push(matriz5[num1][num2]) 
+                }else{
+                    impar5.push(matriz5[num1][num2])
+                }
+                
+               sumasPar5 = 0;
+               for (let i = 0; i < par5.length; i++) {
+               sumasPar5 += par5[i];
+
+               sumasImpar5 = 0;
+               for(let i = 0; i < impar5.length; i++){
+                sumasImpar5 +=  impar5[i];
+
+               }
+               
+               
+            
+        }
+
+            }
+        }
+        console.log("Matriz 5: ", matriz5);
+        console.log("Pares de la tabla del 5: "+ par5);
+        console.log("Impares de la tabla del 5: "+ impar5);
+        console.log("La suma total de los pares de la tabla del 5 es "+sumasPar5);
+        console.log("La suma total de los impares de la tabla del 5 es "+sumasImpar5);
+      
+       // console.log(matriz5[0][1]) izquierda:fila, derecha:columna
+    
+        //tabla del 9
+        let matriz9=[]
+        let pares9=[]
+        let impares9=[]
+        let multiplicador=1
+        let sumasPares9
+        let sumasImpares9
+        for(let num1=0; num1<5;num1++){
+            matriz9[num1]=[]; //fila
+            for(let num2=0; num2<5; num2++){
+                matriz9[num1][num2] = multiplicador * 9;//columna
+                multiplicador++;
+                if(matriz9[num1][num2]%2 == 0){
+                    pares9.push(matriz9[num1][num2]) 
+                }else{
+                    impares9.push(matriz9[num1][num2])
+                }
+                sumasPares9 = 0;
+                for(let i=0; i<pares9.length;i++){
+                    sumasPares9+=pares9[i]
+                }
+                sumasImpares9 = 0;
+                for(let i=0; i<impares9.length;i++){
+                    sumasImpares9+=impares9[i]
+                }
+            }
+        }
+        console.log("Matriz 9:", matriz9);
+        console.log("Pares de la tabla del 9:"+ pares9);
+        console.log("Impares de la tabla del 9:"+ impares9);
+        console.log("La suma total de los pares de la tabla del 9 es "+sumasPares9);
+        console.log("La suma total de los impares de la tabla del 9 es "+sumasImpares9);
+
+  
+
+
+
+    </script>
+    
+</body>
+</html>

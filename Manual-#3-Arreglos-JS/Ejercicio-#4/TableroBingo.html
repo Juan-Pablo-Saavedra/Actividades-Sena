@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imprime el tablero de un bingo y en x diferentes</title>
+</head>
+<body>
+    <script>
+        let tabla = [];
+        let tablaX1 = [];
+        let tablaX2 = [];
+        let tablaX3 = [];
+        let grupoB = [];
+        let grupoI = [];
+        let grupoN = [];
+        let grupoG = [];
+        let grupoO = [];
+        let numero = 1;
+            
+        for (let fila = 0; fila < 5; fila++) {
+            tabla[fila] = [];
+            for (let columna = 0; columna < 5; columna++) {
+                tabla[fila][columna] = numero * 2;
+    
+                if (columna === 0) grupoB.push(tabla[fila][columna]);
+                else if (columna === 1) grupoI.push(tabla[fila][columna]);
+                else if (columna === 2) grupoN.push(tabla[fila][columna]);
+                else if (columna === 3) grupoG.push(tabla[fila][columna]);
+                else if (columna === 4) grupoO.push(tabla[fila][columna]);
+                numero++;
+            }
+        }
+              
+        for (let fila = 0; fila < 3; fila++) {
+            for (let columna = 0; columna < 3; columna++) {
+                if(fila == columna || fila + columna == 2){
+                    tablaX1.push(tabla[fila][columna]);
+                }
+            }
+        }
+    
+        for (let fila = 0; fila < 5; fila++) {
+            for (let columna = 0; columna < 3; columna++) {
+                if(fila + columna == (columna + 1) * 2 || fila + columna == 4){
+                    tablaX2.push(tabla[fila][columna]);
+                }
+            }
+        }
+    
+        for (let fila = 0; fila < 3; fila++) {
+            for (let columna = 2; columna < 5; columna++) {
+                if(fila + columna == (columna + 1) * 2 || fila + columna == 4){
+                    tablaX3.push(tabla[fila][columna]);
+                }
+            }
+        }
+    
+        console.log(tabla);
+        console.log("B: " + grupoB);
+        console.log("I: " + grupoI);
+        console.log("N: " + grupoN);
+        console.log("G: " + grupoG);
+        console.log("O: " + grupoO);
+        console.log("X1: " + tablaX1);
+        console.log("X2: " + tablaX2);
+        console.log("X3: " + tablaX3);
+    </script>
+    
+    
+</body>
+</html>

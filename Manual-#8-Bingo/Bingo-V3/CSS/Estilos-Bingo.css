@@ -1,0 +1,95 @@
+/*
+Algoritmo: Estilos Para el bingo
+Autor: Juan Pablo Saavedra
+Fecha: 22/07/2024
+*/
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Fuente para el texto */
+    background-image: url('./img/Fondo-2.jpg'); /* Imagen de fondo */
+    background-size: contain; /* La imagen de fondo se ajusta para contener todo el fondo */
+    display: flexbox; /* Uso de flexbox para disposición de elementos */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    min-height: 100vh; /* Altura mínima del viewport */
+    margin: 0; /* Sin margen */
+    padding: 20px; /* Espaciado interno de 20px */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 100%; /* Anchura máxima al 100% */
+    width: 100%; /* Anchura al 100% */
+    padding: 0 15px; /* Padding a los lados de 15px */
+    display: flex; /* Uso de flexbox para disposición de elementos */
+    flex-direction: column; /* Los elementos hijos se apilan en una columna */
+    align-items: center; /* Centra los elementos hijos horizontalmente */
+}
+
+/* Estilos de la tarjeta de bingo */
+.card {
+    width: 100%; /* Anchura al 100% */
+    max-width: 450px; /* Anchura máxima de 450px */
+    background: rgba(255, 255, 255, 0); /* Fondo transparente */
+    border: 2px solid #333; /* Borde sólido de 2px de color gris oscuro */
+    border-radius: 35px; /* Bordes redondeados de 35px */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra de caja */
+    margin-bottom: 20px; /* Margen inferior de 20px */
+    padding: 20px; /* Espaciado interno de 20px */
+    backdrop-filter: blur(10px); /* Filtro de desenfoque de fondo */
+}
+
+/* Estilos del encabezado de la tarjeta */
+.card-header {
+    font-size: 1.8rem; /* Tamaño de fuente de 1.8rem */
+    font-weight: bold; /* Texto en negrita */
+    color: #444; /* Color del texto gris oscuro */
+    text-align: center; /* Alineación del texto al centro */
+    margin-bottom: 10px; /* Margen inferior de 10px */
+}
+
+/* Estilos del cuerpo de la tarjeta */
+.card-body {
+    display: flex; /* Uso de flexbox para disposición de elementos */
+    justify-content: space-around; /* Distribución de los elementos con espacio entre ellos */
+    flex-wrap: wrap; /* Los elementos se ajustan al contenedor */
+}
+
+/* Estilos de las letras de bingo */
+.letra {
+    text-align: center; /* Alineación del texto al centro */
+    margin-bottom: 10px; /* Margen inferior de 10px */
+}
+
+.letra div {
+    font-size: 2rem; /* Tamaño de fuente de 2rem */
+    font-weight: bold; /* Texto en negrita */
+    color: #ffffff; /* Color del texto blanco */
+}
+
+/* Estilos de los números de bingo */
+.numero {
+    display: flex; /* Uso de flexbox para disposición de elementos */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    width: 3.5rem; /* Anchura de 3.5rem */
+    height: 3.5rem; /* Altura de 3.5rem */
+    border-radius: 50%; /* Bordes redondeados al 50% para hacer un círculo */
+    text-align: center; /* Alineación del texto al centro */
+    background-color: #c24210; /* Color de fondo */
+    border: 2px solid #000000; /* Borde sólido de 2px de color negro */
+    margin: 5px; /* Margen de 5px */
+    cursor: pointer; /* Cursor de puntero al pasar sobre el elemento */
+    transition: background-color 0.5s, color 0.5s; /* Transiciones suaves para el color de fondo y texto */
+}
+
+.numero:hover {
+    background-color: #00f800; /* Color de fondo al pasar el cursor */
+    color: #f1f1f1; /* Color del texto al pasar el cursor */
+    font-weight: bold; /* Texto en negrita al pasar el cursor */
+}
+
+.numero.x {
+    background-color: #ab00fa; /* Color de fondo cuando se aplica la clase 'x' */
+    color: rgb(0, 0, 0); /* Color del texto cuando se aplica la clase 'x' */
+}

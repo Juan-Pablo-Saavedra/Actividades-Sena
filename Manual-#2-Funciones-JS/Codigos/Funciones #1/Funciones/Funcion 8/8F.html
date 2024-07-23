@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./8F.js"></script>
+</head>
+<body>
+    <script>
+        let valDia = 50000;
+        let diaTra = 28;
+
+        console.log("El valor por día de trabajo es de: $" + valDia);
+        console.log("El sueldo sin descuento es de $" + (diaTra * valDia));
+        console.log("El descuento de salud es $" + subsidios("salud", diaTra, valDia));
+        console.log("El descuento de pensión es $" + subsidios("pension", diaTra, valDia));
+        console.log("El descuento de la ARL es $" + subsidios("arl", diaTra, valDia));
+        console.log("El sueldo total es de $" + pagoTotal(diaTra, valDia));
+        console.log("El total de los descuentos es de $" + des(subsidios("salud", diaTra, valDia), subsidios("pension", diaTra, valDia), subsidios("arl", diaTra, valDia)));
+
+    </script>
+</body>
+</html>

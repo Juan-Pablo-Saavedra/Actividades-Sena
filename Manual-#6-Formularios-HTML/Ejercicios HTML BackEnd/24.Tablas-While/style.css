@@ -1,0 +1,85 @@
+/* Estilo para el contenedor del "libro" */
+.book {
+    width: 100%; /* Ancho completo del libro */
+    display: flex; /* Flexbox para alinear páginas */
+    justify-content: space-between; /* Distribución entre las páginas */
+    gap: 20px; /* Espacio entre las páginas */
+    padding: 20px; /* Espacio interior del "libro" */
+    background-color: #f2f2f2; /* Fondo del "libro" */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del "libro" */
+}
+
+/* Estilo para cada página */
+.page {
+    width: 45%; /* Ancho de cada página */
+    background-color: white; /* Fondo de cada página */
+    padding: 20px; /* Espacio interior de cada página */
+    border: 1px solid #ccc; /* Borde de cada página */
+    border-radius: 5px; /* Borde redondeado de cada página */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra de cada página */
+}
+
+/* Estilo para el contenedor de resultados y tablas */
+.col-4 {
+    margin-bottom: 20px; /* Espacio entre resultados y tablas */
+}
+
+/* Estilo para el título de las tablas */
+.mostrarTablas h2 {
+    margin-top: 0; /* Elimina el margen superior del título */
+}
+
+/* Ajustes adicionales de estilo según tu necesidad */
+.form, .respuesta{
+    border: 2px solid black;
+    margin: -5px;
+    padding: 0px;
+    border-radius: 150px;
+    text-align: center;
+    
+}
+
+form input{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+#porcentajeInput{
+    margin-left: 10px;
+}
+
+.btn{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+    font-size: 15px;
+    background: transparent;
+    animation: colorBTN 5s infinite;
+    
+}
+
+@keyframes colorBTN {
+    0% {box-shadow:  0 0 20px #ff1f1f;}
+    20% {box-shadow:  0 0 20px #ffd000;}
+    30% {box-shadow:  0 0 20px #34ffee;}
+    40% {box-shadow:  0 0 20px #4e3aff;}
+    60% {box-shadow:  0 0 20px #ee35ff;}
+    80% {box-shadow:  0 0 20px #535353;}
+    100% {box-shadow:  0 0 20px #ff38b3;}
+    
+}
+
+.form{
+    padding: 15px;
+}
+
+h2{
+    text-align: center;
+    width: auto;
+    margin-left: 0px;
+    
+    
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="form-box login">
+                <h2>Calcular Salario</h2>
+                <form name="formulario" class="form">
+                    <div class="input-box">
+                        <input type="number" id="diasTrabajados" required>
+                        <label for="nota1Input">Días Trabajados</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="number" id="valorPorDia" required>
+                        <label for="nota2Input">Valor Por Día</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <button type="button" onclick="calcularSalario()" class="btn">Calcular</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4 resultado">
+                <h2>RESULTADO</h2>
+                <div class="resultadoss" id="resultado"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

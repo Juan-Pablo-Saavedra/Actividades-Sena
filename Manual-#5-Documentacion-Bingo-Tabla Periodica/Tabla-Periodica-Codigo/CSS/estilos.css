@@ -1,0 +1,1426 @@
+
+.titulo{
+    margin-left: 500px;
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff,
+      2px 2px 0 #ffffff, -2px 0 0 #ffffff, 2px 0 0 #ffffff, 0 -2px 0 #ffffff,
+      0 2px 0 #ffffff;
+}
+
+
+
+.atomico{
+    font-size: 15px;
+    line-height: 15px;
+    text-align: right;
+    padding-right: 5px;
+    color: rgba(255, 255, 255, 0.885);
+    cursor: pointer;
+    
+}
+
+
+.simbolo{
+    font-size: 15px;
+    line-height: 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.nombre{
+    font-size: 14px;
+    line-height: 0px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+
+.peso{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.HIDROGENO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;  
+    background-color: #66004d;
+    cursor: pointer;
+
+}
+#eq1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+.LITIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f77300;
+}
+
+
+#eq3{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.SODIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f77300;
+}
+
+#eq11{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.POTASIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f77300;
+}
+
+#eq19{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+.RUBIDIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f77300;
+}
+
+#eq37{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.CESIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f77300;
+}
+
+#eq55{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+}
+
+.FRANCIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f77300;
+}
+
+#eq87{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+}
+
+.BERILIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f01800;
+}
+
+#eq4{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.MAGNESIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f01800;
+}
+
+#eq12{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+.CALCIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f01800;
+}
+
+#eq20{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+.ESTRONCIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f01800;
+}
+
+#eq38{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+.BARIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f01800;
+}
+
+#eq56{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+}
+
+.RADIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #f01800
+}
+
+#eq88{
+    
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+
+.ESCANDIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+#eq21{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+.ITRIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+
+}
+
+#eq39{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+
+.LANTANO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(57, 154, 12);
+}
+
+#eq57{
+    position: absolute;
+    top: 600px;
+    left: 300px;
+}
+
+.ACTINIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #9dff00;
+}
+
+#eq89{
+    position: absolute;
+    top: 700px;
+    left: 300px;
+}
+
+.TITANIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+#eq22{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+.ZIRCONIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+#eq40{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
+
+.HAFNIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+#eq72{
+    position: absolute;
+    top: 600px;
+    left: 400px;
+}
+
+.RUTERFODIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+#eq104{
+    position: absolute;
+    top: 700px;
+    left: 400px;
+}
+
+.VANADIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+#eq23{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+
+.NIOBIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+#eq41{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+.TÁNTARO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+#eq73{
+    position: absolute;
+    top: 600px;
+    left: 500px;
+}
+
+.DAUBNIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+#eq105{
+    position: absolute;
+    top: 700px;
+    left: 500px;
+}
+
+.CROMO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq24{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+.MOLIBDENO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq42{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+}
+
+.TUNGSTENO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq74{
+    position: absolute;
+    top: 600px;
+    left: 600px;
+}
+
+.SEABORGIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq106{
+    position: absolute;
+    top: 700px;
+    left: 600px;
+}
+
+.HIERRO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq26{
+    position: absolute;
+    top: 400px;
+    left: 800px;
+}
+
+.RUTENIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq44{
+    position: absolute;
+    top: 500px;
+    left: 800px;
+}
+
+.OSMIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq76{
+    position: absolute;
+    top: 600px;
+    left: 800px;
+}
+
+.HASIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq108{
+    position: absolute;
+    top: 700px;
+    left: 800px;
+}
+
+.MANGANESO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq25{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+}
+
+.TECNECIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq43{
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+
+.RENIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq75{
+    position: absolute;
+    top: 600px;
+    left: 700px;
+}
+
+.BORIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq107{
+    position: absolute;
+    top: 700px;
+    left: 700px;
+}
+
+.COBALTO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq27{
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
+.RODIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq45{
+    position: absolute;
+    top: 500px;
+    left: 900px;
+}
+
+.IRIDIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq77{
+    position: absolute;
+    top: 600px;
+    left: 900px;
+}
+
+.MELTNERIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq109{
+    position: absolute;
+    top: 700px;
+    left: 900px;
+}
+
+.NIQUEL{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq28{
+    position: absolute;
+    top: 400px;
+    left: 1000px;
+}
+
+.PALADIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq46{
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
+
+.PLATINO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq78{
+    position: absolute;
+    top: 600px;
+    left: 1000px;
+}
+
+.DARMSTADTIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq110{
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+}
+
+.COBRE{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq29{
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+}
+
+.PLATA{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq47{
+    position: absolute;
+    top: 500px;
+    left: 1100px;
+}
+
+.ORO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq79{
+    position: absolute;
+    top: 600px;
+    left: 1100px;
+}
+
+.ROENTGENIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq111{
+    position: absolute;
+    top: 700px;
+    left: 1100px;
+}
+
+.ZINC{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq30{
+    position: absolute;
+    top: 400px;
+    left: 1200px;
+}
+
+.CADMIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq48{
+    position: absolute;
+    top: 500px;
+    left: 1200px;
+}
+
+.MERCURIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq80{
+    position: absolute;
+    top: 600px;
+    left: 1200px;
+}
+
+.COPERNICIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #d80065;
+}
+
+
+#eq112{
+    position: absolute;
+    top: 700px;
+    left: 1200px;
+}
+
+.BORO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #008a73;
+}
+
+#eq5{
+    position: absolute;
+    top: 200px;
+    left: 1300px;
+}
+
+.ALUMINIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+#eq13{
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+}
+
+.GALIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+#eq31{
+    position: absolute;
+    top: 400px;
+    left: 1300px;
+}
+
+.INDIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+#eq49{
+    position: absolute;
+    top: 500px;
+    left: 1300px;
+}
+
+.TALIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+#eq81{
+    position: absolute;
+    top: 600px;
+    left: 1300px;
+}
+
+.UNUNTRIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+#eq113{
+    position: absolute;
+    top: 700px;
+    left: 1300px;
+}
+
+.CARBONO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #66004d;
+    
+    }
+    #eq6{
+        position: absolute;
+        top: 200px;
+        left: 1400px;
+}
+
+.SILICIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #008a73;
+}
+
+  #eq14{
+    position: absolute;
+    top: 300px;
+    left: 1400px;
+}
+
+.GERMANIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #008a73;
+}
+
+   #eq32{
+    position: absolute;
+    top: 400px;
+    left: 1400px;
+}
+.ESTAÑO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+  #eq50{
+    position: absolute;
+    top: 500px;
+    left: 1400px;
+}
+
+.PLOMO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+  #eq82{
+    position: absolute;
+    top: 600px;
+    left: 1400px;
+}
+
+.UNUNQUADIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+  #eq114{
+    position: absolute;
+    top: 700px;
+    left: 1400px;
+}
+
+.NITROGENO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #66004d;
+    
+    }
+    #eq7{
+        position: absolute;
+        top: 200px;
+        left: 1500px;
+}
+
+.FOSFORO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #66004d;
+    
+    }
+    #eq15{
+        position: absolute;
+        top: 300px;
+        left: 1500px;
+}
+
+.ARSÉNICO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #008a73;
+}
+
+   #eq33{
+    position: absolute;
+    top: 400px;
+    left: 1500px;
+}
+
+.ANTIMONIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #008a73;
+}
+
+   #eq51{
+    position: absolute;
+    top: 500px;
+    left: 1500px;
+}
+
+.BISMUTO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+  #eq83{
+    position: absolute;
+    top: 600px;
+    left: 1500px;
+}
+
+.UNUNPENTIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+  #eq115{
+    position: absolute;
+    top: 700px;
+    left: 1500px;
+}
+
+.OXIGENO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #66004d;
+    
+    }
+    #eq8{
+        position: absolute;
+        top: 200px;
+        left: 1600px;
+}
+
+.AZUFRE{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #66004d;
+    
+    }
+    #eq16{
+        position: absolute;
+        top: 300px;
+        left: 1600px;
+}
+
+.SELENIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #66004d;
+    
+    }
+    #eq34{
+        position: absolute;
+        top: 400px;
+        left: 1600px;
+}
+
+.TELURIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #008a73;
+}
+
+   #eq52{
+    position: absolute;
+    top: 500px;
+    left: 1600px;
+}
+
+.POLONIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #008a73;
+}
+
+   #eq84{
+    position: absolute;
+    top: 600px;
+    left: 1600px;
+}
+
+.UNUNHEXIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #330054;
+}
+
+  #eq116{
+    position: absolute;
+    top: 700px;
+    left: 1600px;
+}
+
+.FLUOR{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(26, 247, 118);
+}
+
+  #eq9{
+    position: absolute;
+    top: 200px;
+    left: 1700px;
+}
+
+.CLORO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(26, 247, 118);
+}
+
+  #eq17{
+    position: absolute;
+    top: 300px;
+    left: 1700px;
+}
+
+.BROMO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(26, 247, 118);
+}
+
+  #eq35{
+    position: absolute;
+    top: 400px;
+    left: 1700px;
+}
+
+.YODO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(26, 247, 118);
+}
+
+  #eq53{
+    position: absolute;
+    top: 500px;
+    left: 1700px;
+}
+
+.ASTATO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(26, 247, 118);
+}
+
+  #eq85{
+    position: absolute;
+    top: 600px;
+    left: 1700px;
+}
+
+.UNUNSEPTIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(26, 247, 118);
+}
+
+  #eq117{
+    position: absolute;
+    top: 700px;
+    left: 1700px;
+}
+
+.HELIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #00bfff;
+}
+
+  #eq2{
+    position: absolute;
+    top: 100px;
+    left: 1800px;
+}
+
+.NEÓN{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #00bfff;
+}
+
+  #eq10{
+    position: absolute;
+    top: 200px;
+    left: 1800px;
+}
+
+.ARGÓN{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #00bfff;
+}
+
+  #eq18{
+    position: absolute;
+    top: 300px;
+    left: 1800px;
+}
+
+.KRYPTÓN{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #00bfff;
+}
+
+  #eq36{
+    position: absolute;
+    top: 400px;
+    left: 1800px;
+}
+
+.XENÓN{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #00bfff;
+}
+
+  #eq54{
+    position: absolute;
+    top: 500px;
+    left: 1800px;
+}
+
+.RADÓN{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #00bfff;
+}
+
+  #eq86{
+    position: absolute;
+    top: 600px;
+    left: 1800px;
+}
+
+.UNUNOCTIO{
+    width: 100px;
+    height: 100;
+    border: 1px solid black; text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: #00bfff;
+}
+
+  #eq118{
+    position: absolute;
+    top: 700px;
+    left: 1800px;
+}
+

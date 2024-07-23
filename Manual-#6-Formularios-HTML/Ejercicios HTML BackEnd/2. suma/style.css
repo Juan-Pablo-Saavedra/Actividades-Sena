@@ -1,0 +1,82 @@
+ 
+.formulario{
+    display: flexbox;
+    flex-wrap:nowrap;
+    margin: 10px;
+    padding: 5px 15px ;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+}
+
+.form, .respuesta{
+    border: 0px solid black;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+form input{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.btn{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+    font-size: 15px;
+    background: transparent;
+    animation: colorBTN 5s infinite;
+    
+}
+
+@keyframes colorBTN {
+    0% {box-shadow:  0 0 20px #ff1f1f;}
+    20% {box-shadow:  0 0 20px #ffd000;}
+    30% {box-shadow:  0 0 20px #34ffee;}
+    40% {box-shadow:  0 0 20px #4e3aff;}
+    60% {box-shadow:  0 0 20px #ee35ff;}
+    80% {box-shadow:  0 0 20px #535353;}
+    100% {box-shadow:  0 0 20px #ff38b3;}
+    
+}
+
+.form{
+    padding: 11px;
+}
+
+h2{
+    text-align: center;
+    width: auto;
+    margin-left: 33px;
+    
+    
+}
+
+.resultado{
+    border: 2px black solid;
+    display: flex;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-left: 600px;
+    border-radius: 15px;
+    margin-top: -190px;
+    text-align: center;
+}
+
+.resultado p {
+    margin-left: -50px;
+}
+
+#suma{
+    font-size: 19px;
+    margin-top: 50px;
+    margin-left: -200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
