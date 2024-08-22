@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Condiciones para determinar si el número está en la configuración 'Xx'.
             if (
-                (iteracion1 === 0 && iteracion3 === 0) || 
+                (iteracion1 === 1 && iteracion3 === 0) || 
                 (iteracion1 === 1 && iteracion3 === 1) || 
                 (iteracion1 === 2 && iteracion3 === 2) || 
                 (iteracion1 === 2 && iteracion3 === 0) || 
